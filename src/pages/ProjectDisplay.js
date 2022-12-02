@@ -10,7 +10,7 @@ const ProjectDisplay = () => {
   const project = ProjectList[id];
 
   return (
-    <div className="project">      
+    <div className="project">
       <img src={project.image} alt={project.alt}></img>
       <h1>{project.name}</h1>
       <p>
@@ -19,21 +19,27 @@ const ProjectDisplay = () => {
       <p>
         <b>Skills: </b>{project.skills}
       </p>
-      {/* <a
-        href="https://github.com/PheyShan"
-        target="_blank"
-        rel="noopener noreferrer"        
-      >
-        <GitHubIcon />
-      </a> */}
-      <a
-        href={project.link}
-        target="_blank"
-        rel="noopener noreferrer" 
-        className="projectsvg"
-      >
-        <MouseIcon />
-      </a>
+      <ul>
+        <li>
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="projectsvg"
+          >
+            <MouseIcon />
+          </a>
+        </li>
+        <li>
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <GitHubIcon />
+          </a>
+        </li>
+      </ul>
     </div>
   );
 };

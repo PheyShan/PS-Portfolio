@@ -24,6 +24,8 @@ The portfolio is mobile-responsive and developed from scratch mainly using React
 - Projects
 - Experience 
 
+React router and useParams are used in portfolio in order to allow page routing and dynamically render the content based on URL parameters.
+
 ## Available Scripts
 
 In the project directory, you can run:

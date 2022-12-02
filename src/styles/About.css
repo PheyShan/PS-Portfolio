@@ -1,41 +1,32 @@
 .about-container {
     width: 100%;
-    /* height: 100vh; */
-    /* height: 100%; */
-    /* align-items: center;
-    color: #3e497a; */
 }
 
 .about {
-    /* width: 100%; */
-    height: 100vh;
+    height: 50%; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(33, 124, 148, 1) 100%);
     color: #f0f0f0;
-    padding-bottom: 20px;
 }
 
 .about h1 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
+    font-size: 50px;
     color: rgb(255, 225, 0);
-    height: 50px;
+    width: 100%;
+    margin: auto;
+    padding: 30px 0 30px 0;
 }
 
 .about h1:before, .skills h1:before {
     content: "<h1>";
     color: #f46213;
-    /* opacity: 0.6; */
     font-size: 18px;
     font-family: 'La Belle Aurore';
-    /* display: flex; */
     margin-right: 20px;
-    /* border: 1px solid red; */
     display: inline-block;
     -webkit-animation: rotating 5s linear infinite;
     -moz-animation: rotating 5s linear infinite;
@@ -47,11 +38,9 @@
 .about h1:after, .skills h1:after {
     content: "</h1>";
     color: #f46213;
-    /* opacity: 0.6; */
     font-size: 18px;
     font-family: 'La Belle Aurore';
     margin-left: 20px;
-    /* border: 1px solid red; */
     display: inline-block;
     -webkit-animation: rotating 5s linear infinite;
     -moz-animation: rotating 5s linear infinite;
@@ -96,16 +85,16 @@
 }
 
 .about .prompt {
-    width: 40%;
+    width: 60%;
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 50px;
 }
 
 .prompt svg {
-    font-size: 60px;
-    margin: 5px;
-    color: white;
+    font-size: 50px;
+    margin: 20px 5px;
+    color: white;    
 }
 
 .prompt svg:hover {
@@ -114,21 +103,20 @@
 }
 
 .skills {   
-    /* width: 100%; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding: 35px 0;
-    border: 1px solid red;
 }
 
 .skills h1 {
     color: rgb(255, 200, 0);
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .skills h2 {
+    font-size: 30px;
     margin: 35px 0 15px 0;
 }
 
@@ -144,20 +132,14 @@
     color: rgb(135, 134, 128);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 575px) {
 
     .about h1 {
-        font-size: 60px;
-    }
-
-    .about h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .about .prompt {
-        margin-top: 10px;
-        font-size: 20px;
-        width: 80%;
+        font-size: 15px;
     }
 
     .skills {
@@ -173,6 +155,14 @@
     }
 
     .skills h2 {
-        font-size: 30px;
+        font-size: 20px;
+    }
+
+    .list span {
+        font-size: 15px;
+    }
+
+    .prompt svg {
+        font-size: 40px;
     }
 }

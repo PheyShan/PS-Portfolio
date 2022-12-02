@@ -16,7 +16,7 @@ const Experience = () => {
                         className="vertical-timeline-element--education"
                         date="April 2022 - June 2022"
                         contentStyle={{ background: '#f0f0f0', color: 'black' }}
-                        contentArrowStyle={{ borderRight: '10px solid grey' }}
+                        contentArrowStyle={{ borderRight: '10px solid #f0f0f0' }}
                         iconStyle={{ background: "rgb(255, 225, 0)", color: "#fff" }}
                         icon={<SchoolRoundedIcon />}
                     >
@@ -28,7 +28,7 @@ const Experience = () => {
                         className="vertical-timeline-element--education"
                         date="2008 - 2012"
                         contentStyle={{ background: '#f0f0f0', color: 'black' }}
-                        contentArrowStyle={{ borderRight: '10px solid grey' }}
+                        contentArrowStyle={{ borderRight: '10px solid #f0f0f0' }}
                         iconStyle={{ background: "rgb(255, 225, 0)", color: "#fff" }}
                         icon={<SchoolRoundedIcon />}
                     >
@@ -40,8 +40,8 @@ const Experience = () => {
                         className="vertical-timeline-element--work"
                         date="July 2022 - December 2022"
                         contentStyle={{ background: '#f0f0f0', color: 'black' }}
-                        contentArrowStyle={{ borderRight: '10px solid grey' }}
-                        iconStyle={{ background: "rgb(255, 225, 0)", color: "#fff" }}
+                        contentArrowStyle={{ borderRight: '10px solid #f0f0f0' }}
+                        iconStyle={{ background: "black", color: "#fff" }}
                         icon={<WorkRoundedIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Lexly Health Pte. Ltd, Singapore </h3>
@@ -72,8 +72,8 @@ const Experience = () => {
                         className="vertical-timeline-element--work"
                         date="2013 - 2021"
                         contentStyle={{ background: '#f0f0f0', color: 'black' }}
-                        contentArrowStyle={{ borderRight: '10px solid grey' }}
-                        iconStyle={{ background: "rgb(255, 225, 0)", color: "#fff" }}
+                        contentArrowStyle={{ borderRight: '10px solid #f0f0f0' }}
+                        iconStyle={{ background: "black", color: "#fff" }}
                         icon={<WorkRoundedIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Sembcorp Marine Ltd, Singapore</h3>

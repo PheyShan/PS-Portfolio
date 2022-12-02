@@ -1,7 +1,5 @@
 .project {
   width: 100%;
-  /* height: 100vh; */
-  /* height: calc(100vh - 100px); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +7,7 @@
 }
 
 .project img {
-  width: 90%;
+  max-width: 90%;
   height: auto;
   margin-top: 50px;
   max-width: 90%;
@@ -37,7 +35,7 @@
   -moz-animation: rotating 5s linear infinite;
   -ms-animation: rotating 5s linear infinite;
   -o-animation: rotating 5s linear infinite;
-  animation: rotating 5s linear infinite;
+  animation: rotating 5s linear infinite;   
 }
 
 @-webkit-keyframes rotating
@@ -80,4 +78,22 @@
   opacity: 0.5;
 }
 
+.project li {
+  display: inline;
+  margin: 10px;
+}
 
+
+@media only screen and (max-width: 575px) {
+  .project h1 {
+    font-size: 30px;
+  }
+  
+  .project p {
+    font-size: 15px;
+  }
+
+  .project svg {
+    font-size: 50px;
+  }
+}
