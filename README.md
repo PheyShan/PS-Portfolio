@@ -3,7 +3,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Visit the deployed page here: https://ps-myportfolio.netlify.app/
+Visit the deployed page here: https://ps-my-portfolio.netlify.app/
 
 # General Information
 The purpose of this project is to showcase my portfolio. 
